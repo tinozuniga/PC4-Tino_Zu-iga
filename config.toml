@@ -1,0 +1,6 @@
+[these]
+  primaryColor="#3498db"                # Azul primario
+  backgroundColor="#ecf0f1"            # Color de fondo claro
+  secondaryBackgroundColor="#bdc3c7"    # Color de fondo secundario
+  textColor="#2c3e50"                   # Color del texto
+  font="Arial, sans-serif"              # Familia de fuentes
