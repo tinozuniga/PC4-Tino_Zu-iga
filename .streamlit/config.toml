@@ -1,6 +1,6 @@
 [these]
-  primaryColor="#e74c3c"                # Rojo primario
-  backgroundColor="#ecf0f1"            # Color de fondo gris claro
-  secondaryBackgroundColor="#7f8c8d"    # Color de fondo gris oscuro
-  textColor="#2c3e50"                   # Color del texto
-  font="Montserrat"         # Familia de fuentes
+  primaryColor="#e74c3c"
+  backgroundColor="#ecf0f1"
+  secondaryBackgroundColor="#7f8c8d"
+  textColor="#2c3e50"
+  font="Montserrat"
