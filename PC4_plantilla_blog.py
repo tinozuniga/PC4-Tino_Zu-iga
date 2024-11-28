@@ -169,7 +169,7 @@ sidebar.markdown("<h1 style='text-align: center;'>GRAFICOCOS</h1>", unsafe_allow
 # El texto dentro de las etiquetas <h1> ("Los análisis de Ellie") es el contenido del encabezado.
 
 # Creamos una lista de gráficos
-graficos = ['Frecuencia de Goles Anotados por Milan', 'Frecuencia de palab ras clave en comentarios', 'Cursos vs Preferencias']
+graficos = ['Frecuencia de Goles Anotados por Milan', 'Frecuencia de palabras clave en comentarios', 'Cursos vs Preferencias']
 
 # Creamos un cuadro de selección en la barra lateral
 grafico_seleccionado = sidebar.selectbox('Selecciona un graficoco', graficos)
