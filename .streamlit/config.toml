@@ -1,6 +1,6 @@
-[these]
+[theme]
 primaryColor="#e74c3c"
-backgroundColor="#ecf0f1"
+backgroundColor="##00ccff"
 secondaryBackgroundColor="#7f8c8d"
 textColor="#2c3e50"
 font="Sans serif"
