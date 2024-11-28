@@ -188,7 +188,7 @@ if grafico_seleccionado == 'Frecuencia de Goles Anotados por Milan':
     pass
 elif grafico_seleccionado == 'Frecuencia de palabras clave en comentarios':
     sidebar.markdown("<div style='text-align: justify'>Para realizar este grafico de frecuencia de palabras primero se tuvo que depurar el archivo de texto, mediante códigos de python en Colab, y luego hacer el conteo</div>", unsafe_allow_html=True)
-    sidebar.image("Imagen2.png", caption='Frecuencia de palab ras clave en comentarios', width=500)
+    sidebar.image("Imagen2.png", caption='Frecuencia de palabras clave en comentarios', width=500)
     pass
 elif grafico_seleccionado == 'Cursos vs Preferencias':
     sidebar.markdown("<div style='text-align: justify'>Este gráifico nos muestra la frecuencia de alumnos que rpefieren tales cursos.</div>", unsafe_allow_html=True)
