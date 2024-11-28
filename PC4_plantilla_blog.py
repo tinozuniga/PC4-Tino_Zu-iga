@@ -40,7 +40,7 @@ sidebar = st.sidebar
 # Pero, a diferencia de st.markdown, el texto estará alineado a la izquierda y no podrás cambiar el color del texto.
 
 # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>A REGULAR BLOG</h1>", unsafe_allow_html=True)
 
 # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -183,15 +183,15 @@ grafico_seleccionado = sidebar.selectbox('Selecciona un graficoco', graficos)
 
 # Mostramos el gráfico seleccionado
 if grafico_seleccionado == 'Frecuencia de Goles Anotados por Milan':
-    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí vemos una comparativa de frecuencia de goles anotados por el equipo italiano Milan siendo local y siendo visitante</div>", unsafe_allow_html=True)
     sidebar.image("Imagen1.png", caption='Frecuencia de Goles Anotados por Milan', width=500)
     pass
-elif grafico_seleccionado == 'Frecuencia de palab ras clave en comentarios':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 2.</div>", unsafe_allow_html=True)
+elif grafico_seleccionado == 'Frecuencia de palabras clave en comentarios':
+    sidebar.markdown("<div style='text-align: justify'>Para realizar este grafico de frecuencia de palabras primero se tuvo que depurar el archivo de texto, mediante códigos de python en Colab, y luego hacer el conteo</div>", unsafe_allow_html=True)
     sidebar.image("Imagen2.png", caption='Frecuencia de palab ras clave en comentarios', width=500)
     pass
 elif grafico_seleccionado == 'Cursos vs Preferencias':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 3.</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>Este gráifico nos muestra la frecuencia de alumnos que rpefieren tales cursos.</div>", unsafe_allow_html=True)
     sidebar.image("Imagen3.png", caption='Cursos vs Preferencias', width=500)
     pass
 
